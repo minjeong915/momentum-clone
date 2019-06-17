@@ -59,7 +59,7 @@ input::placeholder {
   z-index: -999;
   background-size: cover;
   background-position: center center;
-  animation: fadeIn 2s linear;
+  animation: fadeIn 0.5s linear;
 }
 
 .bgImage::before {
