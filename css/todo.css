@@ -1,0 +1,19 @@
+.toDoForm i {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.toDoList {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+.toDoList li * {
+  margin: 0.5em;
+}
+.toDoList li i:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

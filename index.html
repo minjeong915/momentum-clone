@@ -4,23 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Momentum Clone</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum Clone</title>
   </head>
-
   <body>
-    <div class="js-clock">
-      <h1>00:00</h1>
+    <section class="center">
+      <div class="js-quote quote">
+        <h2 class="js-quote-text"></h2>
+        <span class="js-source"></span>
+      </div>
+      <div class="js-clock clock">
+        <ul class="js-clock-list clock-list"></ul>
+        <h1 js-title title></h1>
+      </div>
+      <form class="js-form form">
+        <input type="text" placeholder="Type your name here" />
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <form class="js-toDoForm toDoForm">
+        <input type="text" placeholder="Goals for this week" />
+        <i class="fas fa-arrow-circle-right"></i>
+      </form>
+      <ul class="js-toDoList toDoList"></ul>
+    </section>
+    <div class="js-weather weather">
+      <span class="weather__text"> </span>
     </div>
-    <form class="js-form form">
-      <input type="text" placeholder="What is your name?" />
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList"></ul>
-    <span class="js-weather"></span>
+
+    <script src="quote.js"></script>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>

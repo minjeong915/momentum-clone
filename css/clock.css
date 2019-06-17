@@ -1,0 +1,37 @@
+.clock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3.5em auto;
+}
+
+.clock-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clock-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-list h1 {
+  font-size: 10em;
+  font-weight: bold;
+  text-shadow: rgb(253, 253, 253) -2px -4px 0.5em;
+}
+
+.clock-list span {
+  position: absolute;
+  color: #120b12;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.7em;
+  padding-bottom: 1.07em;
+  text-shadow: rgb(253, 253, 253) -1px -2px 0.5em;
+}
